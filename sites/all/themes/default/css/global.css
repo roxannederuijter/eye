@@ -196,6 +196,18 @@ input[type="button"]:hover,
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-afbeelding-rechts {
     margin-bottom: 20px; }
 
+/* Algemeen */
+p {
+  margin-bottom: 0;
+  font-size: 0.938em; }
+
+.zone-content-wrapper {
+  padding: 50px 0; }
+
+.zone-footer-wrapper {
+  padding: 25px 0;
+  background-color: #fafafa; }
+
 /* Header */
 #zone-header {
   width: 100%; }
@@ -224,5 +236,51 @@ input[type="button"]:hover,
   .block-superfish-1 ul li a.active {
     color: #000;
     border-top: 3px solid #70bf49; }
+
+/* Contactpagina */
+#zone-postscript {
+  width: 100%; }
+  #zone-postscript #region-postscript-first {
+    width: 100%;
+    margin: 0; }
+    #zone-postscript #region-postscript-first iframe {
+      width: 100%;
+      height: 300px; }
+
+.node-webform {
+  margin-left: 10%; }
+  .node-webform .group-left {
+    width: 40%; }
+    .node-webform .group-left img {
+      float: left;
+      width: 80%; }
+    .node-webform .group-left .field-name-field-body {
+      margin-bottom: 30px; }
+  .node-webform .group-right {
+    width: 40%; }
+    .node-webform .group-right input[type="text"], .node-webform .group-right input[type="email"], .node-webform .group-right textarea {
+      width: 100%;
+      border: 2px solid #8d8d8d;
+      border-radius: 0; }
+    .node-webform .group-right input[type="submit"] {
+      background: #8d8d8d;
+      border-radius: 0px;
+      color: #fff;
+      font-weight: 300;
+      text-transform: uppercase; }
+    .node-webform .group-right h2 {
+      font-size: 0.938em;
+      font-weight: 700; }
+
+/* Footer */
+.zone-footer-wrapper li {
+  display: block; }
+  .zone-footer-wrapper li a {
+    color: #3d3d3d; }
+.zone-footer-wrapper h2 {
+  font-size: 0.938em;
+  color: #3d3d3d;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=global.css.map */

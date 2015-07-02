@@ -75,6 +75,7 @@ function views_banner_views_default_views() {
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
     'page' => 'page',
+    'webform' => 'webform',
   );
 
   /* Display: Banner-block */

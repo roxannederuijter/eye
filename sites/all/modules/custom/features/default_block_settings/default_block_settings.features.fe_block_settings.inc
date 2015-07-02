@@ -12,6 +12,84 @@ function default_block_settings_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['block-contact'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'contact',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'footer_third',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -12,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Contact',
+    'visibility' => 0,
+  );
+
+  $export['block-googlemaps'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'googlemaps',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'contact-opnemen',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['block-informatie'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'informatie',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'footer_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -13,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Overige informatie',
+    'visibility' => 0,
+  );
+
   $export['devel-execute_php'] = array(
     'cache' => -1,
     'custom' => 0,
