@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default - Imagestyles feature.
+ */
+
+include_once 'default_imagestyles.features.inc';

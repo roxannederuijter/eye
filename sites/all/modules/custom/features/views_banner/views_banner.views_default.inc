@@ -45,7 +45,7 @@ function views_banner_views_default_views() {
   $handler->display->display_options['fields']['field_banner']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_banner']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_banner']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'banner',
     'image_link' => '',
   );
   /* Sorteercriterium: Inhoud: Datum van inzending */
@@ -57,8 +57,9 @@ function views_banner_views_default_views() {
   $handler->display->display_options['arguments']['nid']['id'] = 'nid';
   $handler->display->display_options['arguments']['nid']['table'] = 'node';
   $handler->display->display_options['arguments']['nid']['field'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['default_action'] = 'default';
   $handler->display->display_options['arguments']['nid']['exception']['title'] = 'Alle';
-  $handler->display->display_options['arguments']['nid']['default_argument_type'] = 'fixed';
+  $handler->display->display_options['arguments']['nid']['default_argument_type'] = 'node';
   $handler->display->display_options['arguments']['nid']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['nid']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['nid']['summary_options']['items_per_page'] = '25';
