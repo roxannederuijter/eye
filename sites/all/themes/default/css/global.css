@@ -208,6 +208,17 @@ p {
   padding: 25px 0;
   background-color: #fafafa; }
 
+.admin-menu .is-sticky .zone-branding-wrapper {
+  top: 29px !important; }
+.admin-menu .zone-branding-wrapper {
+  top: 73px; }
+
+.zone-branding-wrapper {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 997; }
+
 /* Header */
 #zone-header {
   width: 100%; }
@@ -228,7 +239,7 @@ p {
     color: #000;
     text-transform: uppercase;
     font-weight: 700;
-    margin: 68px 55px 0 0;
+    margin: 32px 55px 0 0;
     border-top: 3px solid transparent;
     padding-top: 5px; }
   .block-superfish-1 ul li a:hover {
