@@ -5,3 +5,43 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 @import 'variables';
 @import 'default-style';
+
+/* Header */
+#zone-header {
+  width:100%;
+  #region-header-first {
+    width:100%;
+    margin:0;
+  }
+}
+
+.zone-branding-wrapper {
+  background-color: #fff;
+  padding: 50px 0 20px 0;
+}
+
+/* Menu */
+.block-superfish-1 {
+  float:right;
+  ul {
+    li {
+      a {
+        font-family:$font;
+        font-size:0.938em;
+        color:#000;
+        text-transform:uppercase;
+        font-weight:700;
+        margin: 68px 55px 0 0;
+        border-top:3px solid transparent;
+        padding-top:5px;
+      }
+      a:hover {
+        color:$green;
+      }
+      a.active {
+        color:#000;
+        border-top:3px solid $green;
+      }
+    }
+  }
+}
