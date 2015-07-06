@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - Home feature.
+ */
+
+include_once 'content_home.features.inc';

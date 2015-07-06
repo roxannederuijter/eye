@@ -196,6 +196,13 @@ input[type="button"]:hover,
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-afbeelding-rechts {
     margin-bottom: 20px; }
 
+/* Fonts */
+@font-face {
+  font-family: 'journalregular';
+  src: url("fonts/journal-webfont.eot");
+  src: url("fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/journal-webfont.woff") format("woff"), url("fonts/journal-webfont.ttf") format("truetype"), url("fonts/journal-webfont.svg#journalregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* Algemeen */
 body {
   background-color: #94d600; }
@@ -238,6 +245,15 @@ p {
 .zone-branding-wrapper {
   background-color: #fff;
   padding: 50px 0 20px 0; }
+
+.view-home-banner .field-name-field-tekst {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  color: #fff;
+  font-size: 45px;
+  font-family: 'journalregular', Arial, sans-serif; }
 
 /* Menu */
 .block-superfish-1 {
@@ -302,5 +318,43 @@ p {
   color: #3d3d3d;
   text-transform: uppercase;
   margin-bottom: 10px; }
+
+/* Home */
+.field-collection-item-field-wie-zijn-wij .field-name-field-title {
+  font-size: 18px;
+  color: #94d600;
+  text-align: center; }
+.field-collection-item-field-wie-zijn-wij .field-name-field-title-text {
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 25px; }
+.field-collection-item-field-wie-zijn-wij .field-name-field-bodys {
+  text-align: center; }
+.field-collection-item-field-wie-zijn-wij .field-name-field-medewerker2 img, .field-collection-item-field-wie-zijn-wij .field-name-field-medewerker1 img {
+  width: 60%;
+  margin: 0 auto; }
+.field-collection-item-field-wie-zijn-wij .field-name-field-naam2, .field-collection-item-field-wie-zijn-wij .field-name-field-naam {
+  text-align: center; }
+.field-collection-item-field-wie-zijn-wij .field-name-field-telefoon2, .field-collection-item-field-wie-zijn-wij .field-name-field-telefoon {
+  text-align: center;
+  font-size: 12px; }
+  .field-collection-item-field-wie-zijn-wij .field-name-field-telefoon2 .field-item:before, .field-collection-item-field-wie-zijn-wij .field-name-field-telefoon .field-item:before {
+    content: 'TEL:';
+    color: #94d600;
+    padding-right: 2%;
+    font-weight: 400; }
+.field-collection-item-field-wie-zijn-wij .field-name-field-mobiel2, .field-collection-item-field-wie-zijn-wij .field-name-field-mobiel {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300; }
+  .field-collection-item-field-wie-zijn-wij .field-name-field-mobiel2 .field-item:before, .field-collection-item-field-wie-zijn-wij .field-name-field-mobiel .field-item:before {
+    content: 'MOB:';
+    color: #94d600;
+    padding-right: 2%;
+    font-weight: 400; }
+.field-collection-item-field-wie-zijn-wij .group-middle {
+  border-bottom: 1px solid;
+  padding-bottom: 90px; }
 
 /*# sourceMappingURL=global.css.map */
