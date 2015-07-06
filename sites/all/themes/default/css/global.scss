@@ -64,6 +64,7 @@ p {
   background-color:#fff;
 }
 
+
 /* Header */
 #zone-header {
   width:100%;
@@ -96,7 +97,7 @@ p {
     bottom: 0;
     left: 50%;
     right: 50%;
-    background:url('img/bottom.png');
+    background-image:url('img/bottom.png');
   }
 }
 
@@ -175,15 +176,19 @@ p {
 
 /* Footer */
 .zone-footer-wrapper {
+  color:#fff;
+  a {
+    color:#fff;
+  }
   li {
     display:block;
     a {
-      color:#3d3d3d;
+      color:#fff;
     }
   }
   h2 {
     font-size:0.938em;
-    color:#3d3d3d;
+    color:#fff;
     text-transform:uppercase;
     margin-bottom:10px;
   }
@@ -239,5 +244,36 @@ p {
   .group-middle {
     border-bottom:1px solid;
     padding-bottom:90px;
+    margin-bottom:50px;
+  }
+}
+
+.block-diensten-dienst-frontpage-block {
+  .views-row {
+    width: 33.3%;
+    text-align: center;
+    float:left;
+  }
+  h2.block-title {
+    text-align:center;
+    color:$green;
+    font-weight:400;
+  }
+  .view-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom:30px;
+  }
+}
+
+.view-display-id-dienst_frontpage_block {
+  width:75%;
+  margin:0 auto;
+  .views-field-field-image {
+    margin-bottom:20px;
+  }
+  a {
+    color:#000;
   }
 }

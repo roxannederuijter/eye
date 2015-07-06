@@ -441,7 +441,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -14,
       ),
       'seven' => array(
         'region' => 'content',
@@ -686,6 +686,32 @@ function default_block_settings_default_fe_block_settings() {
     ),
     'title' => '<none>',
     'visibility' => 0,
+  );
+
+  $export['views-diensten-dienst_frontpage_block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'diensten-dienst_frontpage_block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -13,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Wat doen wij?',
+    'visibility' => 1,
   );
 
   $export['views-home_banner-block'] = array(

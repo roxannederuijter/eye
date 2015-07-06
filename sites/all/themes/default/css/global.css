@@ -262,7 +262,7 @@ p {
   bottom: 0;
   left: 50%;
   right: 50%;
-  background: url("img/bottom.png"); }
+  background-image: url("img/bottom.png"); }
 
 /* Menu */
 .block-superfish-1 {
@@ -318,15 +318,19 @@ p {
       font-weight: 700; }
 
 /* Footer */
-.zone-footer-wrapper li {
-  display: block; }
-  .zone-footer-wrapper li a {
-    color: #3d3d3d; }
-.zone-footer-wrapper h2 {
-  font-size: 0.938em;
-  color: #3d3d3d;
-  text-transform: uppercase;
-  margin-bottom: 10px; }
+.zone-footer-wrapper {
+  color: #fff; }
+  .zone-footer-wrapper a {
+    color: #fff; }
+  .zone-footer-wrapper li {
+    display: block; }
+    .zone-footer-wrapper li a {
+      color: #fff; }
+  .zone-footer-wrapper h2 {
+    font-size: 0.938em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
 
 /* Home */
 .field-collection-item-field-wie-zijn-wij .field-name-field-title {
@@ -364,6 +368,29 @@ p {
     font-weight: 400; }
 .field-collection-item-field-wie-zijn-wij .group-middle {
   border-bottom: 1px solid;
-  padding-bottom: 90px; }
+  padding-bottom: 90px;
+  margin-bottom: 50px; }
+
+.block-diensten-dienst-frontpage-block .views-row {
+  width: 33.3%;
+  text-align: center;
+  float: left; }
+.block-diensten-dienst-frontpage-block h2.block-title {
+  text-align: center;
+  color: #94d600;
+  font-weight: 400; }
+.block-diensten-dienst-frontpage-block .view-header {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 30px; }
+
+.view-display-id-dienst_frontpage_block {
+  width: 75%;
+  margin: 0 auto; }
+  .view-display-id-dienst_frontpage_block .views-field-field-image {
+    margin-bottom: 20px; }
+  .view-display-id-dienst_frontpage_block a {
+    color: #000; }
 
 /*# sourceMappingURL=global.css.map */
