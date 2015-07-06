@@ -271,7 +271,8 @@ p {
   font-family: 'journalregular', Arial, sans-serif;
   bottom: 2%;
   right: 2%;
-  width: 30%; }
+  width: 30%;
+  text-align: center; }
 
 /* Menu */
 .block-superfish-1 {
