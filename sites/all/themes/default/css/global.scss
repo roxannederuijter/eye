@@ -88,6 +88,16 @@ p {
     font-size:45px;
     font-family: 'journalregular', Arial, sans-serif;
   }
+  .bottom {
+    width: 121px;
+    height: 62px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    background:url('img/bottom.png');
+  }
 }
 
 
