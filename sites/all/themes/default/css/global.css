@@ -197,16 +197,21 @@ input[type="button"]:hover,
     margin-bottom: 20px; }
 
 /* Algemeen */
+body {
+  background-color: #94d600; }
+
+.page {
+  width: 99.4%; }
+
+#zone-branding-wrapper {
+  width: 99.4%; }
+
 p {
   margin-bottom: 0;
   font-size: 0.938em; }
 
-.zone-content-wrapper {
-  padding: 50px 0; }
-
 .zone-footer-wrapper {
-  padding: 25px 0;
-  background-color: #fafafa; }
+  padding: 25px 0; }
 
 .admin-menu .is-sticky .zone-branding-wrapper {
   top: 29px !important; }
@@ -218,6 +223,10 @@ p {
   position: absolute;
   width: 100%;
   z-index: 997; }
+
+.zone-content-wrapper {
+  padding: 50px 0;
+  background-color: #fff; }
 
 /* Header */
 #zone-header {
@@ -243,10 +252,10 @@ p {
     border-top: 3px solid transparent;
     padding-top: 5px; }
   .block-superfish-1 ul li a:hover {
-    color: #70bf49; }
+    color: #94d600; }
   .block-superfish-1 ul li a.active {
     color: #000;
-    border-top: 3px solid #70bf49; }
+    border-top: 3px solid #94d600; }
 
 /* Contactpagina */
 #zone-postscript {

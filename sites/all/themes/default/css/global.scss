@@ -7,18 +7,25 @@
 @import 'default-style';
 
 /* Algemeen */
+body {
+  background-color:$green;
+}
+
+.page {
+  width:99.4%;
+}
+
+#zone-branding-wrapper {
+  width:99.4%;
+}
+
 p {
   margin-bottom:0;
   font-size:0.938em;
 }
 
-.zone-content-wrapper {
-  padding:50px 0;
-}
-
 .zone-footer-wrapper {
   padding:25px 0;
-  background-color:#fafafa;
 }
 
 .admin-menu{
@@ -37,6 +44,11 @@ p {
   position: absolute;
   width: 100%;
   z-index: 997;
+}
+
+.zone-content-wrapper {
+  padding:50px 0;
+  background-color:#fff;
 }
 
 /* Header */
