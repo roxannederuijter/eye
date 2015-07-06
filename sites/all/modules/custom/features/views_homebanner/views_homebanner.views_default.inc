@@ -41,7 +41,7 @@ function views_homebanner_views_default_views() {
   $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
-  $handler->display->display_options['footer']['area_text_custom']['content'] = '<div class="bottom"><a href="#"></a></div>';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<a href="#zone-content-wrapper"><div class="bottom"></div></a>';
   /* Veld: Inhoud: Banner */
   $handler->display->display_options['fields']['field_banners']['id'] = 'field_banners';
   $handler->display->display_options['fields']['field_banners']['table'] = 'field_data_field_banners';
@@ -83,7 +83,7 @@ function views_homebanner_views_default_views() {
     t('Sorteren op'),
     t('Oplopend'),
     t('Aflopend'),
-    t('<div class="bottom"><a href="#"></a></div>'),
+    t('<a href="#zone-content-wrapper"><div class="bottom"></div></a>'),
     t('Block'),
   );
   $export['home_banner'] = $view;
