@@ -23,7 +23,7 @@ function content_webform_node_info() {
       'base' => 'node_content',
       'description' => t('Een nieuw formulier of vragenlijst aanmaken. Resultaten en statistieken worden opgeslagen en zijn toegankelijk voor gebruikers met de juiste rechten.'),
       'has_title' => '1',
-      'title_label' => t('Title'),
+      'title_label' => t('Titel'),
       'help' => '',
     ),
   );

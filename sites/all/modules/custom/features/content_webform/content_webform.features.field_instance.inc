@@ -10,17 +10,25 @@
 function content_webform_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-webform-field_banner'
-  $field_instances['node-webform-field_banner'] = array(
+  // Exported field_instance: 'node-webform-field_banners'
+  $field_instances['node-webform-field_banners'] = array(
     'bundle' => 'webform',
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 11,
+        'module' => 'field_collection',
+        'settings' => array(
+          'add' => 'Toevoegen',
+          'delete' => 'Verwijderen',
+          'description' => TRUE,
+          'edit' => 'Bewerken',
+          'view_mode' => 'full',
+        ),
+        'type' => 'field_collection_view',
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -30,28 +38,17 @@ function content_webform_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_banner',
+    'field_name' => 'field_banners',
     'label' => 'Banner',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
-      'default_image' => 0,
-      'file_directory' => '',
-      'file_extensions' => 'png gif jpg jpeg',
-      'max_filesize' => '',
-      'max_resolution' => '',
-      'min_resolution' => '',
-      'title_field' => 0,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'active' => 1,
-      'module' => 'image',
-      'settings' => array(
-        'preview_image_style' => 'thumbnail',
-        'progress_indicator' => 'throbber',
-      ),
-      'type' => 'image_image',
+      'active' => 0,
+      'module' => 'field_collection',
+      'settings' => array(),
+      'type' => 'field_collection_embed',
       'weight' => 44,
     ),
   );
