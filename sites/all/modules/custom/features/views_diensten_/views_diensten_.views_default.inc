@@ -83,6 +83,35 @@ function views_diensten__views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'dienst_frontpage_block');
   $handler->display->display_options['block_description'] = 'Diensten_Frontpage_block';
+
+  /* Display: Pagina */
+  $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler->display->display_options['defaults']['header'] = FALSE;
+  /* Kop: Algemeen: Ongefilterde tekst */
+  $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['header']['area_text_custom']['content'] = '<h2>Onze diensten</h2>
+<p>Waar kunnen we u mee van dienst zijn?</p>';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Veld: Inhoud: Titel */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  /* Veld: Inhoud: Paragraph's */
+  $handler->display->display_options['fields']['field_paragraph_s']['id'] = 'field_paragraph_s';
+  $handler->display->display_options['fields']['field_paragraph_s']['table'] = 'field_data_field_paragraph_s';
+  $handler->display->display_options['fields']['field_paragraph_s']['field'] = 'field_paragraph_s';
+  $handler->display->display_options['fields']['field_paragraph_s']['label'] = '';
+  $handler->display->display_options['fields']['field_paragraph_s']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_paragraph_s']['settings'] = array(
+    'view_mode' => 'full',
+  );
+  $handler->display->display_options['fields']['field_paragraph_s']['delta_offset'] = '0';
+  $handler->display->display_options['path'] = 'diensten';
   $translatables['diensten'] = array(
     t('Master'),
     t('Diensten'),
@@ -95,6 +124,9 @@ function views_diensten__views_default_views() {
     t('Onze diensten op een rijtje'),
     t('Block'),
     t('Diensten_Frontpage_block'),
+    t('Pagina'),
+    t('<h2>Onze diensten</h2>
+<p>Waar kunnen we u mee van dienst zijn?</p>'),
   );
   $export['diensten'] = $view;
 

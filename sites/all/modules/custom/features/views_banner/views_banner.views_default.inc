@@ -38,15 +38,14 @@ function views_banner_views_default_views() {
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Veld: Inhoud: Banner */
-  $handler->display->display_options['fields']['field_banner']['id'] = 'field_banner';
-  $handler->display->display_options['fields']['field_banner']['table'] = 'field_data_field_banner';
-  $handler->display->display_options['fields']['field_banner']['field'] = 'field_banner';
-  $handler->display->display_options['fields']['field_banner']['label'] = '';
-  $handler->display->display_options['fields']['field_banner']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_banner']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_banner']['settings'] = array(
-    'image_style' => 'banner',
-    'image_link' => '',
+  $handler->display->display_options['fields']['field_banners']['id'] = 'field_banners';
+  $handler->display->display_options['fields']['field_banners']['table'] = 'field_data_field_banners';
+  $handler->display->display_options['fields']['field_banners']['field'] = 'field_banners';
+  $handler->display->display_options['fields']['field_banners']['label'] = '';
+  $handler->display->display_options['fields']['field_banners']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_banners']['type'] = 'field_collection_fields';
+  $handler->display->display_options['fields']['field_banners']['settings'] = array(
+    'view_mode' => 'full',
   );
   /* Sorteercriterium: Inhoud: Datum van inzending */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
@@ -75,6 +74,7 @@ function views_banner_views_default_views() {
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
+    'dienst' => 'dienst',
     'page' => 'page',
     'webform' => 'webform',
   );

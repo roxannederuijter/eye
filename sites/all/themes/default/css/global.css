@@ -282,6 +282,30 @@ p {
     color: #000;
     border-top: 3px solid #94d600; }
 
+.block-superfish-2 {
+  float: left;
+  color: #000;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 10px; }
+  .block-superfish-2 h2.block-title {
+    margin-bottom: 10px;
+    text-transform: none;
+    float: left;
+    width: 100%;
+    margin-left: 10px; }
+  .block-superfish-2 ul li {
+    margin: 0;
+    width: 100%;
+    margin-left: 10px; }
+    .block-superfish-2 ul li a {
+      color: #000;
+      font-size: 0.938em;
+      padding: 4px 0;
+      font-weight: 400; }
+    .block-superfish-2 ul li a.active {
+      color: #94d600; }
+
 /* Contactpagina */
 #zone-postscript {
   width: 100%; }
