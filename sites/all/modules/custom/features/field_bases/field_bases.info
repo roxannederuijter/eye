@@ -11,6 +11,7 @@ features[field_base][] = comment_body
 features[field_base][] = field_afbeelding
 features[field_base][] = field_afbeelding_rechts
 features[field_base][] = field_banner
+features[field_base][] = field_banner_home
 features[field_base][] = field_banners
 features[field_base][] = field_body
 features[field_base][] = field_bodys

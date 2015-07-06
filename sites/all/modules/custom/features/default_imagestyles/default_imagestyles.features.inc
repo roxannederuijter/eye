@@ -25,5 +25,20 @@ function default_imagestyles_image_default_styles() {
     ),
   );
 
+  // Exported image style: banner_home.
+  $styles['banner_home'] = array(
+    'label' => 'Banner_home',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 2560,
+          'height' => 1000,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   return $styles;
 }

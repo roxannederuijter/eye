@@ -10,6 +10,86 @@
 function content_home_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance:
+  // 'field_collection_item-field_banner_home-field_banner'
+  $field_instances['field_collection_item-field_banner_home-field_banner'] = array(
+    'bundle' => 'field_banner_home',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => 'banner_home',
+        ),
+        'type' => 'image',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_banner',
+    'label' => 'Banner',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 0,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 32,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'field_collection_item-field_banner_home-field_tekst'
+  $field_instances['field_collection_item-field_banner_home-field_tekst'] = array(
+    'bundle' => 'field_banner_home',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_tekst',
+    'label' => 'Tekst',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 34,
+    ),
+  );
+
   // Exported field_instance: 'field_collection_item-field_banners-field_banner'
   $field_instances['field_collection_item-field_banners-field_banner'] = array(
     'bundle' => 'field_banners',
@@ -21,7 +101,7 @@ function content_home_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'banner',
         ),
         'type' => 'image',
         'weight' => 0,
@@ -495,8 +575,8 @@ function content_home_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-home-field_banners'
-  $field_instances['node-home-field_banners'] = array(
+  // Exported field_instance: 'node-home-field_banner_home'
+  $field_instances['node-home-field_banner_home'] = array(
     'bundle' => 'home',
     'default_value' => NULL,
     'deleted' => 0,
@@ -504,9 +584,16 @@ function content_home_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 9,
+        'module' => 'field_collection',
+        'settings' => array(
+          'add' => 'Toevoegen',
+          'delete' => 'Verwijderen',
+          'description' => TRUE,
+          'edit' => 'Bewerken',
+          'view_mode' => 'full',
+        ),
+        'type' => 'field_collection_view',
+        'weight' => 10,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -516,8 +603,8 @@ function content_home_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_banners',
-    'label' => 'Banner',
+    'field_name' => 'field_banner_home',
+    'label' => 'banner_home',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -527,7 +614,7 @@ function content_home_field_default_field_instances() {
       'module' => 'field_collection',
       'settings' => array(),
       'type' => 'field_collection_embed',
-      'weight' => 41,
+      'weight' => 43,
     ),
   );
 
@@ -581,6 +668,7 @@ function content_home_field_default_field_instances() {
   t('Title');
   t('Title text');
   t('Wie zijn wij');
+  t('banner_home');
   t('body');
   t('telefoon');
 

@@ -264,6 +264,15 @@ p {
   right: 50%;
   background-image: url("img/bottom.png"); }
 
+.views-field-field-banners .field-name-field-tekst {
+  position: absolute;
+  color: #fff;
+  font-size: 45px;
+  font-family: 'journalregular', Arial, sans-serif;
+  bottom: 2%;
+  right: 2%;
+  width: 30%; }
+
 /* Menu */
 .block-superfish-1 {
   float: right; }

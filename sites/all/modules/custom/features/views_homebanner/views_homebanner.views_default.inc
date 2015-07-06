@@ -42,14 +42,14 @@ function views_homebanner_views_default_views() {
   $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
   $handler->display->display_options['footer']['area_text_custom']['content'] = '<a href="#zone-content-wrapper"><div class="bottom"></div></a>';
-  /* Veld: Inhoud: Banner */
-  $handler->display->display_options['fields']['field_banners']['id'] = 'field_banners';
-  $handler->display->display_options['fields']['field_banners']['table'] = 'field_data_field_banners';
-  $handler->display->display_options['fields']['field_banners']['field'] = 'field_banners';
-  $handler->display->display_options['fields']['field_banners']['label'] = '';
-  $handler->display->display_options['fields']['field_banners']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_banners']['type'] = 'field_collection_fields';
-  $handler->display->display_options['fields']['field_banners']['settings'] = array(
+  /* Veld: Inhoud: banner_home */
+  $handler->display->display_options['fields']['field_banner_home']['id'] = 'field_banner_home';
+  $handler->display->display_options['fields']['field_banner_home']['table'] = 'field_data_field_banner_home';
+  $handler->display->display_options['fields']['field_banner_home']['field'] = 'field_banner_home';
+  $handler->display->display_options['fields']['field_banner_home']['label'] = '';
+  $handler->display->display_options['fields']['field_banner_home']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_banner_home']['type'] = 'field_collection_fields';
+  $handler->display->display_options['fields']['field_banner_home']['settings'] = array(
     'view_mode' => 'full',
   );
   /* Sorteercriterium: Inhoud: Datum van inzending */
