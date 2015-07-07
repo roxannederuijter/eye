@@ -266,7 +266,8 @@ p {
   bottom: 0;
   left: 50%;
   right: 50%;
-  background-image: url("img/bottom.png"); }
+  background-image: url("img/bottom.png");
+  z-index: 999; }
 
 .views-field-field-banners .field-name-field-tekst {
   position: absolute;
@@ -441,5 +442,47 @@ p {
     margin-bottom: 10px; }
   .view-display-id-dienst_frontpage_block a {
     color: #000; }
+
+/* Slideshow  */
+.views-slideshow-controls-bottom {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  left: 48%;
+  right: 48%; }
+
+.widget_pager .views-slideshow-pager-field-item {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background: #fff;
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 21px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  float: left;
+  margin: 7%; }
+
+.widget_pager .active {
+  background: #94d600; }
+
+.widget_pager .views-content-counter:hover {
+  background: #94d600;
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 21px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
 
 /*# sourceMappingURL=global.css.map */

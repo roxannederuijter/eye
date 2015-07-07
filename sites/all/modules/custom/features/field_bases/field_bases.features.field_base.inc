@@ -100,7 +100,7 @@ function field_bases_field_default_field_bases() {
   // Exported field_base: 'field_banner_home'
   $field_bases['field_banner_home'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_banner_home',
@@ -122,7 +122,7 @@ function field_bases_field_default_field_bases() {
   // Exported field_base: 'field_banners'
   $field_bases['field_banners'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_banners',
