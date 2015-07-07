@@ -7,15 +7,18 @@
 @import 'default-style';
 
 /* Fonts */
+
 @font-face {
   font-family: 'journalregular';
   src: url('fonts/journal-webfont.eot');
   src: url('fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/journal-webfont.woff2') format('woff2'),
   url('fonts/journal-webfont.woff') format('woff'),
   url('fonts/journal-webfont.ttf') format('truetype'),
   url('fonts/journal-webfont.svg#journalregular') format('svg');
   font-weight: normal;
   font-style: normal;
+
 }
 
 
@@ -92,7 +95,7 @@ p {
     top: 50%;
     color:#fff;
     font-size:45px;
-    font-family: 'journalregular', Arial, sans-serif;
+    font-family: 'journalregular';
   }
   .bottom {
     width: 121px;
