@@ -61,4 +61,14 @@
 .view-display-id-dienst_frontpage_block .views-field-field-image {
   margin-bottom: 20px; }
 
+/* Contactpagina */
+.node-webform {
+  margin-left: 10%; }
+  .node-webform .group-left {
+    width: 40%; }
+    .node-webform .group-left img {
+      margin-bottom: 0; }
+  .node-webform .group-right {
+    width: 40%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

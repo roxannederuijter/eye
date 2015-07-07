@@ -191,19 +191,20 @@ p {
 }
 
 .node-webform {
-  margin-left:10%;
+  margin-left:0%;
   .group-left {
-    width:40%;
+    width:100%;
     img {
       float:left;
       width:80%;
+      margin-bottom:20px;
     }
     .field-name-field-body {
       margin-bottom:30px;
     }
   }
   .group-right {
-    width:40%;
+    width:100%;
     input[type="text"], input[type="email"], textarea {
       width:100%;
       border: 2px solid #8d8d8d;
