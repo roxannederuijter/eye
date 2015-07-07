@@ -40,6 +40,12 @@ p {
   font-size:0.938em;
 }
 
+h2.block-title {
+  font-size: 18px;
+  color: #94d600;
+  text-align: center;
+}
+
 .zone-footer-wrapper {
   padding:25px 0;
 }
@@ -392,4 +398,17 @@ p {
   -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
   -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
   box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+/* Over ons */
+.view-id-about {
+  .group-second, .group-third {
+    border-bottom:1px solid;
+    padding-bottom:30px;
+    margin-bottom:30px;
+    width:20%;
+  }
+  .group-first, .group-fourth {
+    width:30%;
+  }
 }

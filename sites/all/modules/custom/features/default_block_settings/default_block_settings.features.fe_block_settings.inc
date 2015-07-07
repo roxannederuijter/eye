@@ -662,6 +662,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-about-block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'about-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'over-ons',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -15,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Over ons',
+    'visibility' => 1,
+  );
+
   $export['views-banner-banner_block'] = array(
     'cache' => -1,
     'custom' => 0,
