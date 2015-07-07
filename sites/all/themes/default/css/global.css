@@ -419,9 +419,10 @@ p {
   margin: 0 auto; }
 
 .block-diensten-dienst-frontpage-block .views-row {
-  width: 33.3%;
+  width: 100%;
   text-align: center;
-  float: left; }
+  float: none;
+  margin-bottom: 30px; }
 .block-diensten-dienst-frontpage-block h2.block-title {
   text-align: center;
   color: #94d600;
@@ -436,7 +437,7 @@ p {
   width: 75%;
   margin: 0 auto; }
   .view-display-id-dienst_frontpage_block .views-field-field-image {
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
   .view-display-id-dienst_frontpage_block a {
     color: #000; }
 
