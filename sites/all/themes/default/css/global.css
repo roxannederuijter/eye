@@ -405,9 +405,18 @@ p {
     padding-right: 2%;
     font-weight: 400; }
 .field-collection-item-field-wie-zijn-wij .group-middle {
-  border-bottom: 1px solid;
-  padding-bottom: 90px;
-  margin-bottom: 50px; }
+  width: 80%;
+  float: none;
+  margin: 0 auto;
+  padding: 30px 0; }
+.field-collection-item-field-wie-zijn-wij .group-left {
+  width: 80%;
+  float: none;
+  margin: 0 auto; }
+.field-collection-item-field-wie-zijn-wij .group-right {
+  width: 80%;
+  float: none;
+  margin: 0 auto; }
 
 .block-diensten-dienst-frontpage-block .views-row {
   width: 33.3%;

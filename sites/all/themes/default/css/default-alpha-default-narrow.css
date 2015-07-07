@@ -37,4 +37,19 @@
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-left {
     margin-right: 2.5%; }
 
+/* Home */
+.field-collection-item-field-wie-zijn-wij .group-middle {
+  padding: 0;
+  border-bottom: 1px solid;
+  padding-bottom: 90px;
+  margin-bottom: 50px;
+  width: 50%;
+  float: left; }
+.field-collection-item-field-wie-zijn-wij .group-left {
+  width: 25%;
+  float: left; }
+.field-collection-item-field-wie-zijn-wij .group-right {
+  width: 25%;
+  float: right; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
