@@ -51,7 +51,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'postscript_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -14,
       ),
       'seven' => array(
         'region' => '',
@@ -698,7 +698,7 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'content',
+        'region' => 'postscript_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => -13,

@@ -235,6 +235,10 @@ p {
   padding: 50px 0;
   background-color: #fff; }
 
+.zone-postscript-second-wrapper {
+  padding: 0 0 50px 0;
+  background-color: #fff; }
+
 /* Header */
 #zone-header {
   width: 100%; }
