@@ -1,0 +1,7 @@
+<?php
+
+function uh_full_banner_init() {
+    if (drupal_is_front_page()) {
+        drupal_add_js(drupal_get_path('module', 'uh_full_banner') . '/scripts/resize.js');
+    }
+}

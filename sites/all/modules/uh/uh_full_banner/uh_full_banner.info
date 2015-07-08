@@ -1,0 +1,4 @@
+name = Views full banner
+description = Maakt full banner
+core = 7.x
+package = uh

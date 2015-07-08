@@ -492,6 +492,14 @@ h2.block-title {
   -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
 
+#block-views-home-banner-block img {
+  max-width: 100%;
+  margin: 0 auto; }
+#block-views-home-banner-block .views-field-field-banner-home {
+  overflow: hidden; }
+  #block-views-home-banner-block .views-field-field-banner-home img {
+    max-width: none; }
+
 /* Over ons */
 .view-id-about .group-second, .view-id-about .group-third {
   border-bottom: 1px solid;

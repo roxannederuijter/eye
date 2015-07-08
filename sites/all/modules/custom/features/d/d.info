@@ -10,6 +10,7 @@ dependencies[] = menu_attributes
 dependencies[] = multiform
 dependencies[] = plupload
 dependencies[] = strongarm
+dependencies[] = uh_full_banner
 dependencies[] = uh_jquery_menu
 dependencies[] = uh_views_responsive
 dependencies[] = views_slideshow
