@@ -11,8 +11,10 @@
   font-style: normal; }
 /* Colors */
 /* Over ons */
-#block-views-about-block .group-second, #block-views-about-block .group-third {
-  border-bottom: 1px dashed;
-  padding-bottom: 30px; }
+#block-views-about-block {
+  margin-bottom: 0 !important; }
+  #block-views-about-block .group-second, #block-views-about-block .group-third {
+    border-bottom: 1px dashed;
+    padding-bottom: 30px; }
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
