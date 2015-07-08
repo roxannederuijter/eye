@@ -74,3 +74,17 @@
     width:40%;
   }
 }
+
+#zone-postscript {
+  #region-postscript-first {
+    iframe {
+      height:200px;
+    }
+  }
+}
+
+/* Slideshow */
+.views-slideshow-controls-bottom {
+  left: 48%;
+  right: 48%;
+}
