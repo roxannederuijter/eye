@@ -406,6 +406,7 @@ h2.block-title {
 
 /* Over ons */
 #block-views-about-block {
+  margin-bottom:50px!important;
   .group-second, .group-third {
     margin-bottom:30px;
     width:100%;
@@ -420,6 +421,11 @@ h2.block-title {
   }
   .field-name-field-naam2, .field-name-field-over2 {
     text-align:center;
+  }
+  .view-header {
+    text-align:center;
+    font-weight:300;
+    margin-bottom:30px;
   }
 }
 

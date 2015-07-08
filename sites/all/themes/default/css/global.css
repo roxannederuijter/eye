@@ -502,17 +502,23 @@ h2.block-title {
     max-width: none; }
 
 /* Over ons */
-#block-views-about-block .group-second, #block-views-about-block .group-third {
-  margin-bottom: 30px;
-  width: 100%;
-  float: left; }
-#block-views-about-block .group-first, #block-views-about-block .group-fourth {
-  width: 100%;
-  float: left; }
-#block-views-about-block .field-name-field-naam, #block-views-about-block .field-name-field-over {
-  text-align: center; }
-#block-views-about-block .field-name-field-naam2, #block-views-about-block .field-name-field-over2 {
-  text-align: center; }
+#block-views-about-block {
+  margin-bottom: 50px !important; }
+  #block-views-about-block .group-second, #block-views-about-block .group-third {
+    margin-bottom: 30px;
+    width: 100%;
+    float: left; }
+  #block-views-about-block .group-first, #block-views-about-block .group-fourth {
+    width: 100%;
+    float: left; }
+  #block-views-about-block .field-name-field-naam, #block-views-about-block .field-name-field-over {
+    text-align: center; }
+  #block-views-about-block .field-name-field-naam2, #block-views-about-block .field-name-field-over2 {
+    text-align: center; }
+  #block-views-about-block .view-header {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px; }
 
 h2.about {
   color: #94d600;
