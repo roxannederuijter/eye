@@ -33,11 +33,11 @@ body {
 
 p {
   margin-bottom:0;
-  font-size:0.938em;
+  font-size:16px;
 }
 
 h2.block-title {
-  font-size: 18px;
+  font-size: 24px;
   color: #94d600;
   text-align: center;
 }
@@ -229,7 +229,7 @@ h2.block-title {
       text-transform:uppercase;
     }
     h2 {
-      font-size:0.938em;
+      font-size:24px;
       font-weight:700;
     }
   }
@@ -248,11 +248,12 @@ h2.block-title {
     }
   }
   h2 {
-    font-size:0.938em;
+    font-size:24px;
     color:#fff;
     text-transform:uppercase;
     margin-bottom:10px;
     text-align:left;
+    font-weight:300;
   }
 }
 
@@ -260,14 +261,14 @@ h2.block-title {
 
 .field-collection-item-field-wie-zijn-wij {
   .field-name-field-title {
-    font-size: 18px;
+    font-size: 24px;
     color: $green;
     text-align: center;
   }
   .field-name-field-title-text {
     text-align: center;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom:25px;
   }
   .field-name-field-bodys {
@@ -277,6 +278,7 @@ h2.block-title {
     img {
       width:60%;
       margin:0 auto;
+      margin-bottom:10px;
     }
   }
   .field-name-field-naam2, .field-name-field-naam {
@@ -284,7 +286,7 @@ h2.block-title {
   }
   .field-name-field-telefoon2, .field-name-field-telefoon {
     text-align:center;
-    font-size:12px;
+    font-size:15px;
     .field-item:before {
       content:'TEL:';
       color:$green;
@@ -294,7 +296,7 @@ h2.block-title {
   }
   .field-name-field-mobiel2, .field-name-field-mobiel {
     text-align:center;
-    font-size:12px;
+    font-size:15px;
     font-weight:300;
     .field-item:before {
       content:'MOB:';
@@ -447,5 +449,5 @@ h2.about {
 
 h3.rtecenter.about {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 24px;
 }
