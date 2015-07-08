@@ -207,6 +207,9 @@ input[type="button"]:hover,
 body {
   background-color: #94d600; }
 
+ul {
+  margin-bottom: 0; }
+
 .page {
   width: 99.4%; }
 
