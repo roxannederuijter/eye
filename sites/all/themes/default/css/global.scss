@@ -191,8 +191,11 @@ h2.block-title {
 .block-superfish-3  {
   ul {
     li {
+      a {
+        color:#fff;
+      }
       a.active {
-        color:#000;
+        color:#fff;
       }
     }
   }
