@@ -301,6 +301,8 @@ h2.block-title {
   .block-superfish-1 ul li a.active {
     color: #000;
     border-top: 3px solid #94d600; }
+  .block-superfish-1 ul li a.notactive {
+    border-top: 3px solid transparent; }
 
 .block-superfish-2 {
   float: left;

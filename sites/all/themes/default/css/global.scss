@@ -152,6 +152,9 @@ h2.block-title {
         color:#000;
         border-top:3px solid $green;
       }
+      a.notactive {
+        border-top:3px solid transparent;
+      }
     }
   }
 }
