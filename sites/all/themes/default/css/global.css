@@ -337,6 +337,9 @@ h2.block-title {
     .block-superfish-2 ul li a.active, .block-superfish-3 ul li a.active {
       color: #94d600; }
 
+.block-superfish-3 ul li a.active {
+  color: #000; }
+
 /* Contactpagina */
 #zone-postscript {
   width: 100%; }
