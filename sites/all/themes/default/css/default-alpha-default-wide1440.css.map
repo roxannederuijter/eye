@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": ";;;;AAIA,IAAK",
-"sources": ["default-alpha-default-wide1440.scss"],
+"mappings": ";;;;AAMA,UAUC;EATC,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,uCAAuC;EAC5C,GAAG,EAAE,gUAA0E;EAK/E,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;ACXpB,IAAK",
+"sources": ["_variables.scss","default-alpha-default-wide1440.scss"],
 "names": [],
 "file": "default-alpha-default-wide1440.css"
 }

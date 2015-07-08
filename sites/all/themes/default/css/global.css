@@ -3,6 +3,13 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 /* Fonts */
+/* Fonts */
+@font-face {
+  font-family: 'journalregular';
+  src: url("../css/fonts/journal-webfont.eot");
+  src: url("../css/fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../css/fonts/journal-webfont.woff2") format("woff2"), url("../css/fonts/journal-webfont.woff") format("woff"), url("../css/fonts/journal-webfont.ttf") format("truetype"), url("../css/fonts/journal-webfont.svg#journalregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* Colors */
 body {
   font-size: 100%;
@@ -45,7 +52,7 @@ h1, h2, h2.block-title, h3, h4, h5 {
 h3, h4, h5 {
   font-weight: 400; }
 
-p, a, a:link, div {
+p, a, a:link {
   font-family: "Lato", sans-serif;
   font-size: 1em;
   text-decoration: none; }
@@ -196,13 +203,6 @@ input[type="button"]:hover,
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-afbeelding-rechts {
     margin-bottom: 20px; }
 
-/* Fonts */
-@font-face {
-  font-family: 'journalregular';
-  src: url("fonts/journal-webfont.eot");
-  src: url("fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/journal-webfont.woff2") format("woff2"), url("fonts/journal-webfont.woff") format("woff"), url("fonts/journal-webfont.ttf") format("truetype"), url("fonts/journal-webfont.svg#journalregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 /* Algemeen */
 body {
   background-color: #94d600; }
@@ -262,7 +262,7 @@ h2.block-title {
   top: 50%;
   color: #fff;
   font-size: 45px;
-  font-family: 'journalregular'; }
+  font-family: "journalregular", Arial, sans-serif; }
 .view-home-banner .bottom {
   width: 121px;
   height: 62px;
@@ -278,7 +278,7 @@ h2.block-title {
   position: absolute;
   color: #fff;
   font-size: 45px;
-  font-family: 'journalregular', Arial, sans-serif;
+  font-family: "journalregular", Arial, sans-serif;
   bottom: 2%;
   right: 2%;
   width: 30%;
@@ -501,12 +501,15 @@ h2.block-title {
     max-width: none; }
 
 /* Over ons */
-.view-id-about .group-second, .view-id-about .group-third {
+#block-views-about-block .group-second, #block-views-about-block .group-third {
   border-bottom: 1px solid;
   padding-bottom: 30px;
   margin-bottom: 30px;
   width: 20%; }
-.view-id-about .group-first, .view-id-about .group-fourth {
+#block-views-about-block .group-first, #block-views-about-block .group-fourth {
   width: 30%; }
+#block-views-about-block .view-header {
+  text-align: center;
+  font-weight: 300; }
 
 /*# sourceMappingURL=global.css.map */

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": ";;;;;AAMA,UAUC;EATC,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,uCAAuC;EAC5C,GAAG,EAAE,gUAA0E;EAK/E,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM",
+"sources": ["_variables.scss"],
 "names": [],
 "file": "default-alpha-default-normal.css"
 }

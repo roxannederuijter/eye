@@ -6,20 +6,7 @@
 @import 'variables';
 @import 'default-style';
 
-/* Fonts */
 
-@font-face {
-  font-family: 'journalregular';
-  src: url('fonts/journal-webfont.eot');
-  src: url('fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
-  url('fonts/journal-webfont.woff2') format('woff2'),
-  url('fonts/journal-webfont.woff') format('woff'),
-  url('fonts/journal-webfont.ttf') format('truetype'),
-  url('fonts/journal-webfont.svg#journalregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-
-}
 
 
 /* Algemeen */
@@ -101,7 +88,7 @@ h2.block-title {
     top: 50%;
     color:#fff;
     font-size:45px;
-    font-family: 'journalregular';
+    font-family: $journal;
   }
   .bottom {
     width: 121px;
@@ -121,7 +108,7 @@ h2.block-title {
     position: absolute;
     color: #fff;
     font-size: 45px;
-    font-family: 'journalregular', Arial, sans-serif;
+    font-family: $journal;
     bottom: 2%;
     right: 2%;
     width: 30%;
@@ -417,7 +404,7 @@ h2.block-title {
 }
 
 /* Over ons */
-.view-id-about {
+#block-views-about-block {
   .group-second, .group-third {
     border-bottom:1px solid;
     padding-bottom:30px;
@@ -426,5 +413,9 @@ h2.block-title {
   }
   .group-first, .group-fourth {
     width:30%;
+  }
+  .view-header {
+    text-align:center;
+    font-weight:300;
   }
 }

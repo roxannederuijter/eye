@@ -2,6 +2,13 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 /* Fonts */
+/* Fonts */
+@font-face {
+  font-family: 'journalregular';
+  src: url("../css/fonts/journal-webfont.eot");
+  src: url("../css/fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../css/fonts/journal-webfont.woff2") format("woff2"), url("../css/fonts/journal-webfont.woff") format("woff"), url("../css/fonts/journal-webfont.ttf") format("truetype"), url("../css/fonts/journal-webfont.svg#journalregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* Colors */
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
