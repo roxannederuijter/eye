@@ -503,20 +503,16 @@ h2.block-title {
 
 /* Over ons */
 #block-views-about-block .group-second, #block-views-about-block .group-third {
-  border-bottom: 1px dashed;
-  padding-bottom: 30px;
   margin-bottom: 30px;
-  width: 20%; }
+  width: 100%;
+  float: left; }
 #block-views-about-block .group-first, #block-views-about-block .group-fourth {
-  width: 30%; }
-#block-views-about-block .view-header {
-  text-align: center;
-  font-weight: 300;
-  margin-bottom: 30px; }
+  width: 100%;
+  float: left; }
 #block-views-about-block .field-name-field-naam, #block-views-about-block .field-name-field-over {
-  text-align: right; }
+  text-align: center; }
 #block-views-about-block .field-name-field-naam2, #block-views-about-block .field-name-field-over2 {
-  text-align: left; }
+  text-align: center; }
 
 h2.about {
   color: #94d600;

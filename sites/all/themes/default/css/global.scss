@@ -407,24 +407,19 @@ h2.block-title {
 /* Over ons */
 #block-views-about-block {
   .group-second, .group-third {
-    border-bottom:1px dashed;
-    padding-bottom:30px;
     margin-bottom:30px;
-    width:20%;
+    width:100%;
+    float:left;
   }
   .group-first, .group-fourth {
-    width:30%;
-  }
-  .view-header {
-    text-align:center;
-    font-weight:300;
-    margin-bottom:30px;
+    width:100%;
+    float:left;
   }
   .field-name-field-naam, .field-name-field-over {
-    text-align:right;
+    text-align:center;
   }
   .field-name-field-naam2, .field-name-field-over2 {
-    text-align:left;
+    text-align:center;
   }
 }
 

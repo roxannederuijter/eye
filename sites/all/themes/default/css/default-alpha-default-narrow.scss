@@ -88,3 +88,23 @@
   left: 48%;
   right: 48%;
 }
+
+/* Over ons */
+#block-views-about-block {
+  .group-second, .group-third {
+    border-bottom:1px dashed;
+    padding-bottom:30px;
+    width:20%;
+    float:none;
+  }
+  .group-first, .group-fourth {
+    width:30%;
+    float:none;
+  }
+  .field-name-field-naam, .field-name-field-over {
+    text-align:right;
+  }
+  .field-name-field-naam2, .field-name-field-over2 {
+    text-align:left;
+  }
+}
