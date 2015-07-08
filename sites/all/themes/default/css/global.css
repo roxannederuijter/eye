@@ -337,10 +337,12 @@ h2.block-title {
     .block-superfish-2 ul li a.active, .block-superfish-3 ul li a.active {
       color: #94d600; }
 
-.block-superfish-3 ul li a {
-  color: #fff; }
-.block-superfish-3 ul li a.active {
-  color: #fff; }
+.block-superfish-3 ul {
+  margin-bottom: 0; }
+  .block-superfish-3 ul li a {
+    color: #fff; }
+  .block-superfish-3 ul li a.active {
+    color: #fff; }
 
 /* Contactpagina */
 #zone-postscript {
