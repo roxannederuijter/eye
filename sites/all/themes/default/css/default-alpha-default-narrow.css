@@ -44,6 +44,10 @@
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-left {
     margin-right: 2.5%; }
 
+/* Algemeen */
+.logo-img img {
+  width: 10%; }
+
 /* Home */
 .field-collection-item-field-wie-zijn-wij .group-middle {
   padding: 0;
