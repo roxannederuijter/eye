@@ -90,8 +90,6 @@
 #block-views-about-block {
   margin-bottom: 0 !important; }
   #block-views-about-block .group-second, #block-views-about-block .group-third {
-    border-bottom: 1px dashed;
-    padding-bottom: 30px;
     width: 20%;
     float: left; }
   #block-views-about-block .group-first, #block-views-about-block .group-fourth {

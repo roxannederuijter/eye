@@ -2,3 +2,11 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 @import 'variables';
+
+/* Over ons */
+#block-views-about-block {
+  .group-second, .group-third {
+    border-bottom:1px dashed;
+    padding-bottom:30px;
+  }
+}
