@@ -241,6 +241,7 @@ h2.block-title {
     color:#fff;
     text-transform:uppercase;
     margin-bottom:10px;
+    text-align:left;
   }
 }
 
@@ -406,7 +407,7 @@ h2.block-title {
 /* Over ons */
 #block-views-about-block {
   .group-second, .group-third {
-    border-bottom:1px solid;
+    border-bottom:1px dashed;
     padding-bottom:30px;
     margin-bottom:30px;
     width:20%;
@@ -417,5 +418,22 @@ h2.block-title {
   .view-header {
     text-align:center;
     font-weight:300;
+    margin-bottom:30px;
   }
+  .field-name-field-naam, .field-name-field-over {
+    text-align:right;
+  }
+  .field-name-field-naam2, .field-name-field-over2 {
+    text-align:left;
+  }
+}
+
+h2.about {
+  color:$green;
+  margin-bottom:0;
+}
+
+h3.rtecenter.about {
+  font-weight: 300;
+  font-size: 18px;
 }
