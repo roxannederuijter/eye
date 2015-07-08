@@ -37,6 +37,11 @@ function views_about_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Kop: Algemeen: Ongefilterde tekst */
+  $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['header']['area_text_custom']['content'] = 'De mensen achter Eye accountancy';
   /* Veld: Inhoud: Wie zijn wij */
   $handler->display->display_options['fields']['field_wie_zijn_wij']['id'] = 'field_wie_zijn_wij';
   $handler->display->display_options['fields']['field_wie_zijn_wij']['table'] = 'field_data_field_wie_zijn_wij';
@@ -71,6 +76,7 @@ function views_about_views_default_views() {
     t('Sorteren op'),
     t('Oplopend'),
     t('Aflopend'),
+    t('De mensen achter Eye accountancy'),
     t('Block'),
   );
   $export['about'] = $view;
