@@ -212,7 +212,8 @@ body {
 
 .logo-img {
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 10px; }
   .logo-img img {
     width: 50%; }
 
@@ -259,7 +260,7 @@ h2.block-title {
 
 .zone-branding-wrapper {
   background-color: #fff;
-  padding: 50px 0 20px 0; }
+  padding: 30px 0 30px 0; }
 
 .view-home-banner .field-name-field-tekst {
   position: absolute;
@@ -300,15 +301,17 @@ h2.block-title {
     text-transform: uppercase;
     font-weight: 700;
     margin: 32px 55px 0 0;
-    border-top: 3px solid transparent;
-    padding-top: 5px; }
+    border-top: 4px solid transparent;
+    padding-top: 10px; }
   .block-superfish-1 ul li a:hover {
     color: #94d600; }
   .block-superfish-1 ul li a.active {
     color: #000;
-    border-top: 3px solid #94d600; }
+    border-top: 4px solid #94d600;
+    padding-top: 10px; }
   .block-superfish-1 ul li a.notactive {
-    border-top: 3px solid transparent; }
+    border-top: 4px solid transparent;
+    padding-top: 10px; }
 
 .block-superfish-2 {
   float: left;
