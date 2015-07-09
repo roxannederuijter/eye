@@ -27,4 +27,11 @@
   width: 100%;
   margin: 0 auto; }
 
+/* menu */
+.block-superfish-1 {
+  float: right;
+  width: 100%; }
+  .block-superfish-1 ul {
+    float: right; }
+
 /*# sourceMappingURL=default-alpha-default-normal.css.map */

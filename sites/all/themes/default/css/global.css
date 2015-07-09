@@ -135,12 +135,12 @@ input[type="button"]:hover,
   background: #cccccc; }
 
 #superfish-1-select {
-  background: #fff url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
+  background: #94d600 url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
   background-size: 20px;
   color: #000;
   position: relative;
   float: right;
-  padding: 18px 18px;
+  padding: 18px 20px;
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;
@@ -230,7 +230,7 @@ ul {
   margin: 0 auto;
   margin-top: 10px; }
   .logo-img img {
-    width: 50%; }
+    width: 80%; }
 
 #zone-branding-wrapper {
   width: 99.4%; }
@@ -270,6 +270,10 @@ h2.block-title {
 .zone-postscript-second-wrapper {
   padding: 0 0 50px 0;
   background-color: #fff; }
+
+.region-branding-inner {
+  width: 60%;
+  float: left; }
 
 /* Header */
 #zone-header {
@@ -315,7 +319,8 @@ h2.block-title {
 
 /* Menu */
 .block-superfish-1 {
-  float: right; }
+  float: right;
+  width: 10%; }
   .block-superfish-1 ul li a {
     font-family: "Lato", sans-serif;
     font-size: 0.938em;

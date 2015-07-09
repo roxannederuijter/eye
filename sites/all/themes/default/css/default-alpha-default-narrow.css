@@ -48,6 +48,10 @@
 .logo-img img {
   width: 100%; }
 
+.region-branding-inner {
+  width: 100%;
+  float: left; }
+
 /* Home */
 .field-collection-item-field-wie-zijn-wij .group-middle {
   padding: 0;

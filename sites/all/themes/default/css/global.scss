@@ -26,7 +26,7 @@ ul {
   margin:0 auto;
   margin-top:10px;
   img {
-    width:50%;
+    width:80%;
   }
 }
 
@@ -83,6 +83,10 @@ h2.block-title {
   background-color:#fff;
 }
 
+.region-branding-inner {
+  width:60%;
+  float:left;
+}
 
 /* Header */
 #zone-header {
@@ -140,6 +144,8 @@ h2.block-title {
 /* Menu */
 .block-superfish-1 {
   float:right;
+  width:10%;
+
   ul {
     li {
       a {
