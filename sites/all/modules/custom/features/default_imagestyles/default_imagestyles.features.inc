@@ -18,7 +18,7 @@ function default_imagestyles_image_default_styles() {
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 2560,
-          'height' => 750,
+          'height' => 850,
         ),
         'weight' => 1,
       ),
