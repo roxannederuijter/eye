@@ -350,7 +350,8 @@ h2.block-title {
     margin-bottom: 10px;
     text-transform: none;
     float: left;
-    width: 100%; }
+    width: 100%;
+    margin-top: 20px; }
   .block-superfish-2 ul li, .block-superfish-3 ul li {
     margin: 0;
     width: 100%; }

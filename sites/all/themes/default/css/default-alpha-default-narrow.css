@@ -118,7 +118,8 @@
 
 /* Menu */
 .block-superfish-2 h2.block-title, .block-superfish-3 h2.block-title {
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-top: 0; }
 .block-superfish-2 ul li, .block-superfish-3 ul li {
   margin-left: 10px; }
 
