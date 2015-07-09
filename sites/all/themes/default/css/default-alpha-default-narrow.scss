@@ -66,6 +66,18 @@
     float:left;
     margin-bottom:0;
   }
+  .views-row-2 {
+    background: url("img/line.png") no-repeat scroll top 34% center transparent;
+    background-size: 100% 6px;
+  }
+  .views-row-1 {
+    background: url("img/line.png") no-repeat scroll right 34%;
+    background-size: 60% 6px;
+  }
+  .views-row-3 {
+    background: url("img/line.png") no-repeat scroll left 34%;
+    background-size: 60% 6px;
+  }
 }
 
 .view-display-id-dienst_frontpage_block {
