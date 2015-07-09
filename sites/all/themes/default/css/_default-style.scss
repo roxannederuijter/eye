@@ -62,6 +62,7 @@ a, a:link {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  color:$green;
 }
 
 a:hover, a:link:hover {
@@ -70,6 +71,7 @@ a:hover, a:link:hover {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  color:#000;
 }
 
 .fa:before {

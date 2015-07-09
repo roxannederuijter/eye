@@ -78,7 +78,8 @@
   .node-webform .group-left {
     width: 40%; }
     .node-webform .group-left img {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      width: 1; }
   .node-webform .group-right {
     width: 40%; }
 
@@ -88,7 +89,7 @@
 /* Slideshow */
 .views-slideshow-controls-bottom {
   left: 42%;
-  right: 48%; }
+  right: 42%; }
 
 /* Over ons */
 #block-views-about-block .group-second, #block-views-about-block .group-third {

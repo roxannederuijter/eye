@@ -62,14 +62,16 @@ a, a:link {
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  color: #94d600; }
 
 a:hover, a:link:hover {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  color: #000; }
 
 .fa:before {
   margin-right: 0.5em;
@@ -365,7 +367,7 @@ h2.block-title {
     width: 100%; }
     .node-webform .group-left img {
       float: left;
-      width: 80%;
+      width: 100%;
       margin-bottom: 20px; }
     .node-webform .group-left .field-name-field-body {
       margin-bottom: 30px; }
