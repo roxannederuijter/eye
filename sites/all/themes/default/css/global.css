@@ -500,7 +500,7 @@ h2.block-title {
 .views-slideshow-controls-bottom {
   position: absolute;
   bottom: 0;
-  z-index: 999;
+  z-index: 3;
   left: 40%;
   right: 40%; }
 
