@@ -448,11 +448,12 @@ h2.block-title {
     width:100%;
     float:left;
   }
-  .field-name-field-naam, .field-name-field-over {
+  .field-name-field-naam, .field-name-field-over,  .field-name-field-naam2, .field-name-field-over2{
     text-align:center;
+    font-weight:300;
   }
-  .field-name-field-naam2, .field-name-field-over2 {
-    text-align:center;
+  .field-name-field-naam, .field-name-field-naam2 {
+    font-size:17px;
   }
   .view-header {
     text-align:center;
@@ -469,4 +470,13 @@ h2.about {
 h3.rtecenter.about {
   font-weight: 300;
   font-size: 24px;
+}
+
+.context-over-ons {
+  .paragraphs-item-1-kolom-tekst {
+    .field-name-field-tekst-lang {
+      width:60%;
+      margin:0 auto;
+    }
+  }
 }

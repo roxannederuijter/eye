@@ -534,10 +534,11 @@ h2.block-title {
   #block-views-about-block .group-first, #block-views-about-block .group-fourth {
     width: 100%;
     float: left; }
-  #block-views-about-block .field-name-field-naam, #block-views-about-block .field-name-field-over {
-    text-align: center; }
-  #block-views-about-block .field-name-field-naam2, #block-views-about-block .field-name-field-over2 {
-    text-align: center; }
+  #block-views-about-block .field-name-field-naam, #block-views-about-block .field-name-field-over, #block-views-about-block .field-name-field-naam2, #block-views-about-block .field-name-field-over2 {
+    text-align: center;
+    font-weight: 300; }
+  #block-views-about-block .field-name-field-naam, #block-views-about-block .field-name-field-naam2 {
+    font-size: 17px; }
   #block-views-about-block .view-header {
     text-align: center;
     font-weight: 300;
@@ -550,5 +551,9 @@ h2.about {
 h3.rtecenter.about {
   font-weight: 300;
   font-size: 24px; }
+
+.context-over-ons .paragraphs-item-1-kolom-tekst .field-name-field-tekst-lang {
+  width: 60%;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=global.css.map */
