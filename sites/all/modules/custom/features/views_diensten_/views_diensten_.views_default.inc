@@ -41,7 +41,7 @@ function views_diensten__views_default_views() {
   $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
-  $handler->display->display_options['header']['area_text_custom']['content'] = 'Onze diensten op een rijtje';
+  $handler->display->display_options['header']['area_text_custom']['content'] = 'De belangrijkste diensten van ons op een rijtje';
   /* Veld: Inhoud: afbeelding */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -121,7 +121,7 @@ function views_diensten__views_default_views() {
     t('Sorteren op'),
     t('Oplopend'),
     t('Aflopend'),
-    t('Onze diensten op een rijtje'),
+    t('De belangrijkste diensten van ons op een rijtje'),
     t('Block'),
     t('Diensten_Frontpage_block'),
     t('Pagina'),
