@@ -443,7 +443,8 @@ h2.block-title {
   text-align: center; }
 .field-collection-item-field-wie-zijn-wij .field-name-field-telefoon2, .field-collection-item-field-wie-zijn-wij .field-name-field-telefoon {
   text-align: center;
-  font-size: 15px; }
+  font-size: 15px;
+  font-weight: 300; }
   .field-collection-item-field-wie-zijn-wij .field-name-field-telefoon2 .field-item:before, .field-collection-item-field-wie-zijn-wij .field-name-field-telefoon .field-item:before {
     content: 'TEL:';
     color: #94d600;
