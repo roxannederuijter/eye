@@ -181,14 +181,14 @@ function content_home_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 6,
+        'weight' => 7,
       ),
       'diff_standard' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 6,
+        'weight' => 7,
       ),
       'full' => array(
         'label' => 'hidden',
@@ -214,7 +214,103 @@ function content_home_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 13,
+      'weight' => 15,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'field_collection_item-field_wie_zijn_wij-field_mail'
+  $field_instances['field_collection_item-field_wie_zijn_wij-field_mail'] = array(
+    'bundle' => 'field_wie_zijn_wij',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 12,
+      ),
+      'diff_standard' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_mail',
+    'label' => 'mail',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'field_collection_item-field_wie_zijn_wij-field_mail2'
+  $field_instances['field_collection_item-field_wie_zijn_wij-field_mail2'] = array(
+    'bundle' => 'field_wie_zijn_wij',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
+      'diff_standard' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 12,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_mail2',
+    'label' => 'mail',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 11,
     ),
   );
 
@@ -298,7 +394,7 @@ function content_home_field_default_field_instances() {
           'image_style' => '',
         ),
         'type' => 'image',
-        'weight' => 7,
+        'weight' => 8,
       ),
       'diff_standard' => array(
         'label' => 'hidden',
@@ -308,7 +404,7 @@ function content_home_field_default_field_instances() {
           'image_style' => '',
         ),
         'type' => 'image',
-        'weight' => 7,
+        'weight' => 8,
       ),
       'full' => array(
         'label' => 'hidden',
@@ -344,7 +440,7 @@ function content_home_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 6,
+      'weight' => 7,
     ),
   );
 
@@ -409,14 +505,14 @@ function content_home_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 10,
+        'weight' => 11,
       ),
       'diff_standard' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 10,
+        'weight' => 11,
       ),
       'full' => array(
         'label' => 'hidden',
@@ -440,7 +536,7 @@ function content_home_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 9,
+      'weight' => 10,
     ),
   );
 
@@ -506,14 +602,14 @@ function content_home_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 8,
+        'weight' => 9,
       ),
       'diff_standard' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 8,
+        'weight' => 9,
       ),
       'full' => array(
         'label' => 'hidden',
@@ -538,7 +634,7 @@ function content_home_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 7,
+      'weight' => 8,
     ),
   );
 
@@ -554,13 +650,13 @@ function content_home_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 11,
+        'weight' => 13,
       ),
       'diff_standard' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 11,
+        'weight' => 13,
       ),
       'full' => array(
         'label' => 'hidden',
@@ -585,7 +681,7 @@ function content_home_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 5,
+      'weight' => 6,
     ),
   );
 
@@ -601,13 +697,13 @@ function content_home_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 12,
+        'weight' => 14,
       ),
       'diff_standard' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 12,
+        'weight' => 14,
       ),
       'full' => array(
         'label' => 'hidden',
@@ -632,7 +728,7 @@ function content_home_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 10,
+      'weight' => 12,
     ),
   );
 
@@ -697,14 +793,14 @@ function content_home_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 9,
+        'weight' => 10,
       ),
       'diff_standard' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 9,
+        'weight' => 10,
       ),
       'full' => array(
         'label' => 'hidden',
@@ -728,7 +824,7 @@ function content_home_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 8,
+      'weight' => 9,
     ),
   );
 
@@ -745,14 +841,14 @@ function content_home_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 5,
       ),
       'diff_standard' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 5,
       ),
       'full' => array(
         'label' => 'hidden',
@@ -776,7 +872,7 @@ function content_home_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 11,
+      'weight' => 13,
     ),
   );
 
@@ -793,14 +889,14 @@ function content_home_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 5,
+        'weight' => 6,
       ),
       'diff_standard' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 5,
+        'weight' => 6,
       ),
       'full' => array(
         'label' => 'hidden',
@@ -824,7 +920,7 @@ function content_home_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 12,
+      'weight' => 14,
     ),
   );
 
@@ -917,6 +1013,7 @@ function content_home_field_default_field_instances() {
   t('Wie zijn wij');
   t('banner_home');
   t('body');
+  t('mail');
   t('telefoon');
 
   return $field_instances;

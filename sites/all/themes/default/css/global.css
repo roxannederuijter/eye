@@ -459,6 +459,15 @@ h2.block-title {
     color: #94d600;
     padding-right: 2%;
     font-weight: 400; }
+.field-collection-item-field-wie-zijn-wij .field-name-field-mail, .field-collection-item-field-wie-zijn-wij .field-name-field-mail2 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300; }
+  .field-collection-item-field-wie-zijn-wij .field-name-field-mail .field-item:before, .field-collection-item-field-wie-zijn-wij .field-name-field-mail2 .field-item:before {
+    content: 'MAIL:';
+    color: #94d600;
+    padding-right: 2%;
+    font-weight: 400; }
 .field-collection-item-field-wie-zijn-wij .group-middle {
   width: 80%;
   float: none;
