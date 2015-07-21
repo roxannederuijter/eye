@@ -37,6 +37,7 @@ ul {
 p {
   margin-bottom:0;
   font-size:16px;
+  font-weight:300;
 }
 
 h2 {
@@ -462,21 +463,15 @@ h2.block-title {
 /* Over ons */
 #block-views-about-block {
   margin-bottom:50px!important;
-  .group-second, .group-third {
-    margin-bottom:30px;
-    width:100%;
-    float:left;
+  margin-top:50px!important;
+  .group-left {
+
+    width: 45%;
+    font-weight: 300;
   }
-  .group-first, .group-fourth {
-    width:100%;
-    float:left;
-  }
-  .field-name-field-naam, .field-name-field-over,  .field-name-field-naam2, .field-name-field-over2{
-    text-align:center;
-    font-weight:300;
-  }
-  .field-name-field-naam, .field-name-field-naam2 {
-    font-size:17px;
+  .group-right {
+    width: 45%;
+    font-weight: 300;
   }
   .view-header {
     text-align:center;
