@@ -79,8 +79,8 @@
   background: url("img/line.png") no-repeat scroll right 34%;
   background-size: 60% 6px; }
 .block-diensten-dienst-frontpage-block .views-row-3 {
-  background: url("img/line.png") no-repeat scroll left 34%;
-  background-size: 60% 6px; }
+  background: url("img/line.png") no-repeat scroll top 34% center transparent;
+  background-size: 100% 6px; }
 .block-diensten-dienst-frontpage-block .views-row-4 {
   background: url("img/line.png") no-repeat scroll left 34%;
   background-size: 60% 6px; }
