@@ -248,7 +248,8 @@ h2 {
 h2.block-title {
   font-size: 24px;
   color: #94d600;
-  text-align: center; }
+  text-align: center;
+  font-weight: 300; }
 
 .zone-footer-wrapper {
   padding: 25px 0; }
@@ -352,7 +353,8 @@ h2.block-title {
     text-transform: none;
     float: left;
     width: 100%;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-weight: 300; }
   .block-superfish-2 ul li, .block-superfish-3 ul li {
     margin: 0;
     width: 100%; }
@@ -491,7 +493,7 @@ h2.block-title {
 .block-diensten-dienst-frontpage-block h2.block-title {
   text-align: center;
   color: #94d600;
-  font-weight: 400; }
+  font-weight: 300; }
 .block-diensten-dienst-frontpage-block .view-header {
   text-align: center;
   font-size: 18px;
