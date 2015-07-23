@@ -464,6 +464,21 @@ h2.block-title {
     color: #94d600;
     padding-right: 2%;
     font-weight: 400; }
+.field-collection-item-field-wie-zijn-wij .field-name-field-linkedin {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000; }
+  .field-collection-item-field-wie-zijn-wij .field-name-field-linkedin .field-item:before {
+    font-family: FontAwesome;
+    content: '\f08c';
+    color: #94d600;
+    padding-right: 2%;
+    font-weight: 400; }
+  .field-collection-item-field-wie-zijn-wij .field-name-field-linkedin a {
+    color: #000; }
+  .field-collection-item-field-wie-zijn-wij .field-name-field-linkedin a:hover {
+    text-decoration: underline; }
 .field-collection-item-field-wie-zijn-wij .field-name-field-mail, .field-collection-item-field-wie-zijn-wij .field-name-field-mail2 {
   text-align: center;
   font-size: 15px;
