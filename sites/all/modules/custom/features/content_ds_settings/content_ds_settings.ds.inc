@@ -33,7 +33,7 @@ function content_ds_settings_ds_field_settings_info() {
   $ds_fieldsetting->view_mode = 'default';
   $ds_fieldsetting->settings = array(
     'title' => array(
-      'weight' => '2',
+      'weight' => '3',
       'label' => 'hidden',
       'format' => 'default',
     ),
@@ -273,19 +273,23 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->entity_type = 'node';
   $ds_layout->bundle = 'webform';
   $ds_layout->view_mode = 'default';
-  $ds_layout->layout = 'ds_2col';
+  $ds_layout->layout = 'ds_3col_stacked';
   $ds_layout->settings = array(
     'regions' => array(
+      'header' => array(
+        0 => 'field_intro',
+      ),
       'left' => array(
-        0 => 'field_body',
-        1 => 'field_image',
+        1 => 'field_body',
+        2 => 'field_image',
       ),
       'right' => array(
-        2 => 'title',
-        3 => 'webform',
+        3 => 'title',
+        4 => 'webform',
       ),
     ),
     'fields' => array(
+      'field_intro' => 'header',
       'field_body' => 'left',
       'field_image' => 'left',
       'title' => 'right',
@@ -293,8 +297,11 @@ function content_ds_settings_ds_layout_settings_info() {
     ),
     'classes' => array(),
     'wrappers' => array(
+      'header' => 'div',
       'left' => 'div',
+      'middle' => 'div',
       'right' => 'div',
+      'footer' => 'div',
     ),
     'layout_wrapper' => 'div',
     'layout_attributes' => '',

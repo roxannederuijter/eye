@@ -409,6 +409,8 @@ h2.block-title {
       color: #fff;
       font-weight: 300;
       text-transform: uppercase; }
+  .node-webform .field-name-field-intro {
+    text-align: center; }
 
 /* Footer */
 .zone-footer-wrapper {

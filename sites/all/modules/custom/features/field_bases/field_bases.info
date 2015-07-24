@@ -19,6 +19,7 @@ features[field_base][] = field_bodys
 features[field_base][] = field_file_image_alt_text
 features[field_base][] = field_file_image_title_text
 features[field_base][] = field_image
+features[field_base][] = field_intro
 features[field_base][] = field_linkedin
 features[field_base][] = field_mail
 features[field_base][] = field_mail2
