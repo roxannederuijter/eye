@@ -290,13 +290,14 @@ h2.block-title {
 
 .view-home-banner .field-name-field-tekst {
   position: absolute;
-  width: 100%;
   text-align: center;
-  top: 50%;
   color: #fff;
   font-size: 45px;
   font-family: "journalregular", Arial, sans-serif;
-  text-shadow: 1px 1px 1px #050505; }
+  text-shadow: 1px 1px 1px #050505;
+  bottom: 2%;
+  right: 2%;
+  width: 30%; }
 .view-home-banner .bottom {
   width: 121px;
   height: 62px;
