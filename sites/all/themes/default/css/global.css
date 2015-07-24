@@ -591,6 +591,8 @@ h2.block-title {
     text-align: center;
     font-weight: 300;
     margin-bottom: 30px; }
+  #block-views-about-block .field-name-field-naam {
+    font-weight: 600; }
 
 h2.about {
   color: #94d600;
