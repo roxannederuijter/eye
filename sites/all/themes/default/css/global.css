@@ -412,7 +412,8 @@ h2.block-title {
 
 /* Footer */
 .zone-footer-wrapper {
-  color: #fff; }
+  color: #fff;
+  font-weight: 300 !important; }
   .zone-footer-wrapper a {
     color: #fff; }
   .zone-footer-wrapper li {
