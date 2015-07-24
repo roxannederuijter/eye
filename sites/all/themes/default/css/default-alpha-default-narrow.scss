@@ -130,8 +130,16 @@
     width:30%;
     float:left;
   }
+  .group-header, .group-footer {
+    width:60%;
+    margin:0 auto;
+    font-weight:300;
+    padding-bottom:30px;
+  }
+
+
   .field-name-field-naam, .field-name-field-over {
-    text-align:right;
+    text-align:left;
   }
   .field-name-field-naam2, .field-name-field-over2 {
     text-align:left;
