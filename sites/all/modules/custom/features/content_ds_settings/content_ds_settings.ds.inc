@@ -175,28 +175,30 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->entity_type = 'field_collection_item';
   $ds_layout->bundle = 'field_wie_zijn_wij';
   $ds_layout->view_mode = 'full';
-  $ds_layout->layout = 'ds_2col';
+  $ds_layout->layout = 'ds_2col_stacked';
   $ds_layout->settings = array(
     'regions' => array(
-      'left' => array(
+      'header' => array(
         0 => 'field_naam',
         1 => 'field_over',
       ),
-      'right' => array(
+      'footer' => array(
         2 => 'field_naam2',
         3 => 'field_over2',
       ),
     ),
     'fields' => array(
-      'field_naam' => 'left',
-      'field_over' => 'left',
-      'field_naam2' => 'right',
-      'field_over2' => 'right',
+      'field_naam' => 'header',
+      'field_over' => 'header',
+      'field_naam2' => 'footer',
+      'field_over2' => 'footer',
     ),
     'classes' => array(),
     'wrappers' => array(
+      'header' => 'div',
       'left' => 'div',
       'right' => 'div',
+      'footer' => 'div',
     ),
     'layout_wrapper' => 'div',
     'layout_attributes' => '',

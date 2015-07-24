@@ -441,7 +441,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -15,
+        'weight' => -14,
       ),
       'seven' => array(
         'region' => 'content',
@@ -675,7 +675,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -14,
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',
