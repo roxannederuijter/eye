@@ -423,6 +423,8 @@ h2.block-title {
     display: block; }
     .zone-footer-wrapper li a {
       color: #fff; }
+    .zone-footer-wrapper li a.active {
+      color: #000; }
   .zone-footer-wrapper h2 {
     font-size: 24px;
     color: #fff;
