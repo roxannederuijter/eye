@@ -373,6 +373,8 @@ h2.block-title {
     color: #fff; }
   .block-superfish-3 ul li a.active {
     color: #000; }
+  .block-superfish-3 ul li a:hover {
+    color: #000; }
 
 /* Contactpagina */
 #zone-postscript {
