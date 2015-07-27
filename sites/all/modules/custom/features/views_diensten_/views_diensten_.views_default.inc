@@ -34,7 +34,9 @@ function views_diensten__views_default_views() {
   $handler->display->display_options['exposed_form']['options']['exposed_sorts_label'] = 'Sorteren op';
   $handler->display->display_options['exposed_form']['options']['sort_asc_label'] = 'Oplopend';
   $handler->display->display_options['exposed_form']['options']['sort_desc_label'] = 'Aflopend';
-  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '4';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Kop: Algemeen: Ongefilterde tekst */
