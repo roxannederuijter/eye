@@ -410,7 +410,7 @@ h2.block-title {
       font-weight: 300;
       text-transform: uppercase; }
   .node-webform .field-name-field-intro {
-    text-align: center; }
+    text-align: left; }
 
 /* Footer */
 .zone-footer-wrapper {
