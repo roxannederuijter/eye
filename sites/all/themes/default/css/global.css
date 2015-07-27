@@ -429,6 +429,8 @@ h2.block-title {
     margin-bottom: 10px;
     text-align: left;
     font-weight: 300; }
+  .zone-footer-wrapper p {
+    font-size: 0.938em; }
 
 /* Home */
 .field-collection-item-field-wie-zijn-wij .field-name-field-title {
