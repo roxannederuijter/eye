@@ -352,28 +352,28 @@ h2.block-title {
     border-top: 4px solid transparent;
     padding-top: 10px; }
 
-.block-superfish-2, .block-superfish-3 {
+.block-superfish-2, .block-superfish-3, .block-superfish-4 {
   float: left;
   color: #000;
   width: 100%;
   margin: 0;
   padding-bottom: 10px; }
-  .block-superfish-2 h2.block-title, .block-superfish-3 h2.block-title {
+  .block-superfish-2 h2.block-title, .block-superfish-3 h2.block-title, .block-superfish-4 h2.block-title {
     margin-bottom: 10px;
     text-transform: none;
     float: left;
     width: 100%;
     margin-top: 20px;
     font-weight: 300; }
-  .block-superfish-2 ul li, .block-superfish-3 ul li {
+  .block-superfish-2 ul li, .block-superfish-3 ul li, .block-superfish-4 ul li {
     margin: 0;
     width: 100%; }
-    .block-superfish-2 ul li a, .block-superfish-3 ul li a {
+    .block-superfish-2 ul li a, .block-superfish-3 ul li a, .block-superfish-4 ul li a {
       color: #000;
       font-size: 0.938em;
       padding: 4px 0;
       font-weight: 400; }
-    .block-superfish-2 ul li a.active, .block-superfish-3 ul li a.active {
+    .block-superfish-2 ul li a.active, .block-superfish-3 ul li a.active, .block-superfish-4 ul li a.active {
       color: #94d600; }
 
 .block-superfish-3 ul {
