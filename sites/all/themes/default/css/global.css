@@ -376,13 +376,16 @@ h2.block-title {
     .block-superfish-2 ul li a.active, .block-superfish-3 ul li a.active, .block-superfish-4 ul li a.active {
       color: #94d600; }
 
-.block-superfish-3 ul {
+#block-superfish-4 h2.block-title {
+  margin-top: 0; }
+
+.block-superfish-3 ul, .block-superfish-4 ul {
   margin-bottom: 0; }
-  .block-superfish-3 ul li a {
+  .block-superfish-3 ul li a, .block-superfish-4 ul li a {
     color: #fff; }
-  .block-superfish-3 ul li a.active {
+  .block-superfish-3 ul li a.active, .block-superfish-4 ul li a.active {
     color: #000; }
-  .block-superfish-3 ul li a:hover {
+  .block-superfish-3 ul li a:hover, .block-superfish-4 ul li a:hover {
     color: #000; }
 
 /* Contactpagina */

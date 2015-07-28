@@ -220,7 +220,13 @@ h2.block-title {
   }
 }
 
-.block-superfish-3  {
+#block-superfish-4 {
+  h2.block-title {
+    margin-top:0;
+  }
+}
+
+.block-superfish-3, .block-superfish-4  {
   ul {
     margin-bottom:0;
     li {
