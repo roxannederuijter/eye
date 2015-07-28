@@ -440,14 +440,14 @@ h2.block-title {
 .field-collection-item-field-wie-zijn-wij .field-name-field-title {
   font-size: 24px;
   color: #94d600;
-  text-align: center; }
+  text-align: left; }
 .field-collection-item-field-wie-zijn-wij .field-name-field-title-text {
-  text-align: center;
+  text-align: left;
   font-weight: 300;
   font-size: 16px;
   margin-bottom: 25px; }
 .field-collection-item-field-wie-zijn-wij .field-name-field-bodys {
-  text-align: center; }
+  text-align: left; }
 .field-collection-item-field-wie-zijn-wij .field-name-field-medewerker2 img, .field-collection-item-field-wie-zijn-wij .field-name-field-medewerker1 img {
   width: 60%;
   margin: 0 auto;
