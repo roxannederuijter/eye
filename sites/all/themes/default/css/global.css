@@ -232,6 +232,15 @@ ul {
   .logo-img img {
     width: 80%; }
 
+#zone-branding-wrapper-sticky-wrapper {
+  background-color: #fff; }
+
+#zone-header-wrapper {
+  background-color: #fff; }
+
+#section-content {
+  background-color: #fff; }
+
 #zone-branding-wrapper {
   width: 99.4%; }
 
