@@ -14,13 +14,13 @@ function default_block_settings_default_fe_block_boxes() {
   $fe_block_boxes->info = 'contact';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'contact';
-  $fe_block_boxes->body = '<p>kinderdijk 68</p>
+  $fe_block_boxes->body = '<p>Kinderdijk 68</p>
 
 <p>4331 HH Middelburg</p>
 
-<p>T 0118 - 62 33 11</p>
+<p>0118 - 227500</p>
 
-<p>Email@eyeaccountancy.nl</p>
+<p>info@eyeaccountancy.nl</p>
 ';
 
   $export['contact'] = $fe_block_boxes;
