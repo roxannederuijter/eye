@@ -3,6 +3,7 @@ core = 7.x
 package = Default settings
 dependencies[] = admin_menu
 dependencies[] = adminimal_admin_menu
+dependencies[] = checklistapi
 dependencies[] = ctools
 dependencies[] = default_seo_settings
 dependencies[] = jquery_update
