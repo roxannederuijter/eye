@@ -131,6 +131,16 @@
 .block-superfish-2 ul li, .block-superfish-3 ul li {
   margin-left: 10px; }
 
+.view-home-banner .field-name-field-tekst {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-family: "journalregular", Arial, sans-serif;
+  text-shadow: 1px 1px 1px #050505;
+  bottom: 2%;
+  right: 2%;
+  width: 30%; }
 .view-home-banner a {
   position: absolute;
   left: 50%;

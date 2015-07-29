@@ -118,15 +118,7 @@ h2.block-title {
 
 .view-home-banner {
   .field-name-field-tekst {
-    position: absolute;
-    text-align: center;
-    color:#fff;
-    font-size:45px;
-    font-family: $journal;
-    text-shadow: 1px 1px 1px #050505;
-    bottom: 2%;
-    right: 2%;
-    width: 30%;
+    display:none;
   }
   a {
     position:absolute;
