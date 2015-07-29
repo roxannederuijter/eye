@@ -155,4 +155,15 @@
   background-image: url("img/bottom.png");
   background-size: 100%; }
 
+.views-field-field-banners .field-name-field-tekst {
+  position: absolute;
+  color: #fff;
+  font-size: 27px;
+  font-family: "journalregular", Arial, sans-serif;
+  bottom: 2%;
+  right: 2%;
+  width: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px #050505; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

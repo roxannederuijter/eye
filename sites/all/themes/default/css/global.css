@@ -316,15 +316,7 @@ h2.block-title {
   background-repeat: no-repeat; }
 
 .views-field-field-banners .field-name-field-tekst {
-  position: absolute;
-  color: #fff;
-  font-size: 27px;
-  font-family: "journalregular", Arial, sans-serif;
-  bottom: 2%;
-  right: 2%;
-  width: 100%;
-  text-align: center;
-  text-shadow: 1px 1px 1px #050505; }
+  display: none; }
 
 /* Menu */
 .block-superfish-1 {
