@@ -4,6 +4,7 @@ package = Default settings
 dependencies[] = admin_menu
 dependencies[] = adminimal_admin_menu
 dependencies[] = checklistapi
+dependencies[] = checklistapi_example
 dependencies[] = ctools
 dependencies[] = default_seo_settings
 dependencies[] = jquery_update
