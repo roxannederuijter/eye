@@ -298,25 +298,39 @@ h2.block-title {
   padding: 30px 0 30px 0; }
 
 .view-home-banner .field-name-field-tekst {
-  display: none; }
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-family: "journalregular", Arial, sans-serif;
+  text-shadow: 1px 1px 1px #050505;
+  bottom: 2%;
+  right: 2%;
+  width: 30%; }
 .view-home-banner a {
   position: absolute;
   left: 50%;
   bottom: 0;
-  z-index: 5; }
+  z-index: 50; }
 .view-home-banner .bottom {
   width: 121px;
-  height: 30px;
+  height: 62px;
   position: relative;
   text-align: center;
   left: -50%;
   background-image: url("img/bottom.png");
-  z-index: 999;
-  background-size: 50%;
-  background-repeat: no-repeat; }
+  background-size: 100%; }
 
 .views-field-field-banners .field-name-field-tekst {
-  display: none; }
+  position: absolute;
+  color: #fff;
+  font-size: 27px;
+  font-family: "journalregular", Arial, sans-serif;
+  bottom: 2%;
+  right: 2%;
+  width: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px #050505; }
 
 /* Menu */
 .block-superfish-1 {
