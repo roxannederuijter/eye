@@ -310,7 +310,8 @@ h2.block-title {
 .view-home-banner a {
   position: absolute;
   left: 50%;
-  bottom: 0; }
+  bottom: 0;
+  z-index: 5; }
 .view-home-banner .bottom {
   width: 121px;
   height: 30px;
